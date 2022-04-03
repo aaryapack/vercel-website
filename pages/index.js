@@ -72,10 +72,10 @@ const Home = () => {
             <div className="flex flex-col items-center">
               <Carousel
                 imageSrc={Object.entries([
-                  "products/foam/foam_packing_10.jpg",
                   "/products/air_bubble/air_bubble_pouch.jpg",
                   "/products/shrink/shrink_sleeve.jpg",
                   "/products/foam/foam_pouch.jpg",
+                  "/products/foam/foam_packing_10.jpg",
                   "products/air_bubble/air_bubble_roll.jpg",
                 ])}
               />
