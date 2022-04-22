@@ -246,6 +246,12 @@ const Home = () => {
           subtitle={inventory[13].categories[0]}
           link={`/product/${slugify(inventory[13].name)}`}
         />
+        <DisplaySmall
+          imageSrc={inventory[14].images[0]}
+          title={inventory[14].name}
+          subtitle={inventory[14].categories[0]}
+          link={`/product/${slugify(inventory[14].name)}`}
+        />
       </div>
 
       {/* PVC Shrink */}
@@ -263,12 +269,6 @@ const Home = () => {
       </div>
 
       <div className="my-8 flex flex-col lg:flex-row flex-wrap justify-left">
-        <DisplaySmall
-          imageSrc={inventory[14].images[0]}
-          title={inventory[14].name}
-          subtitle={inventory[14].categories[0]}
-          link={`/product/${slugify(inventory[14].name)}`}
-        />
 
         <DisplaySmall
           imageSrc={inventory[15].images[0]}
@@ -296,6 +296,13 @@ const Home = () => {
           title={inventory[18].name}
           subtitle={inventory[18].categories[0]}
           link={`/product/${slugify(inventory[18].name)}`}
+        />
+
+      <DisplaySmall
+          imageSrc={inventory[19].images[0]}
+          title={inventory[19].name}
+          subtitle={inventory[19].categories[0]}
+          link={`/product/${slugify(inventory[19].name)}`}
         />
       </div>
 

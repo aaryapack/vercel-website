@@ -95,16 +95,11 @@ let inventory = [
     ],
   },
 
-  // Foam Packing:10-13
+  // Foam Packing:10-14
   {
     categories: ["Foam Packing"],
     name: "EPE Foam Pouch",
-    images: [
-      "/products/foam/foam_pouch.jpg",
-      "/products/foam/foam_pouch_2.jpg",
-      "/products/foam/foam_pouch_3.jpg",
-      "/products/foam/foam_pouch_4.jpg",
-    ],
+    images: ["/products/foam/foam_pouch_3.jpg"],
   },
   {
     categories: ["Foam Packing"],
@@ -115,6 +110,15 @@ let inventory = [
     categories: ["Foam Packing"],
     name: "EPE Foam Sheet",
     images: ["/products/foam/foam_sheet.jpg"],
+  },
+  {
+    categories: ["Foam Packing"],
+    name: "Thermal Heat Resistant Bag",
+    images: [
+      "/products/foam/foam_pouch.jpg",
+      "/products/foam/foam_pouch_2.jpg",
+      "/products/foam/foam_pouch_4.jpg",
+    ],
   },
   {
     categories: ["Foam Packing"],
@@ -133,35 +137,32 @@ let inventory = [
     ],
   },
 
-
-    // Stretch and Shrink Film: 14-18
-    {
-      categories: ["Stretch and Shrink Film"],
-      name: "PVC Shrink Film",
-      images: ["/products/shrink/pvc_shrink.jpg"],
-    },
-    {
-      categories: ["Stretch and Shrink Film"],
-      name: "Heat Shrink Film",
-      images: ["/products/shrink/heat_shrink.jpg"],
-    },
-    {
-      categories: ["Stretch and Shrink Film"],
-      name: "Stretch Wrap",
-      images: ["/products/shrink/stretch_wrap.jpg"],
-    },
-    {
-      categories: ["Stretch and Shrink Film"],
-      name: "PVC Shrinkable Pouch",
-      images: ["/products/shrink/shrinkable_pouch.jpg"],
-    },
-    {
-      categories: ["Stretch and Shrink Film"],
-      name: "PVC Shrink Sleeve",
-      images: ["/products/shrink/shrink_sleeve.jpg"],
-    },
-
-  
+  // Stretch and Shrink Film: 15-19
+  {
+    categories: ["Stretch and Shrink Film"],
+    name: "PVC Shrink Film",
+    images: ["/products/shrink/pvc_shrink.jpg"],
+  },
+  {
+    categories: ["Stretch and Shrink Film"],
+    name: "Heat Shrink Film",
+    images: ["/products/shrink/heat_shrink.jpg"],
+  },
+  {
+    categories: ["Stretch and Shrink Film"],
+    name: "Stretch Wrap",
+    images: ["/products/shrink/stretch_wrap.jpg"],
+  },
+  {
+    categories: ["Stretch and Shrink Film"],
+    name: "PVC Shrinkable Pouch",
+    images: ["/products/shrink/shrinkable_pouch.jpg"],
+  },
+  {
+    categories: ["Stretch and Shrink Film"],
+    name: "PVC Shrink Sleeve",
+    images: ["/products/shrink/shrink_sleeve.jpg"],
+  },
 ]
 
 inventory.map((i) => {
