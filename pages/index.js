@@ -150,20 +150,27 @@ const Home = () => {
         />
       </div>
 
-      {/* PVC Shrink */}
+      {/* Plastic Corrugated Box */}
       <div className="pt-10 pb-6 flex flex-col items-center">
-        <h3 className="text-3xl mb-3">Stretch and Shrink Films</h3>
+        <h3 className="text-3xl mb-3">Plastic Corrugated Box</h3>
         <p>
           {" "}
-          Leading Manufacturer of PVC heat shrink sleeves and pouches, PVC
-          shrink film combo packaging. PVC shrink film, is durable and is used
-          in many applications, including packaging and house ware products. In
-          terms of packaging, PVC is seen in rigid applications including
-          blister and clamshell packaging, and flexible applications including
-          shrink wrap and bagging.{" "}
+          Corrugated Plastic Package Box for Office and Home Use, Made of Strong
+          & Light weight Plastic materials, Very long Life. Ideal for Air Tight
+          and Reusable Packing. Humidity and Chemical resistance. Polypropylene
+          is Impact Resistance built to handle heavy weight. Unique Foldable
+          design to Store if not in Use, Stackable boxes easy to transport with
+          Handles to carry. This boxes are highly recommendable for Export
+          Packaging due to its light weight quality. Aarya Pack’s plastic
+          corrugated boxes are durable, reusable, waterproof, recyclable and
+          lightweight. They are best in quality, having best applicable price
+          and delivered across India. They can be good option for storing items
+          at your home. Aarya Pack’s corrugated plastic box series is by far the
+          most versatile box in the market, our corrugated plastic boxes in
+          hundreds of sizes, styles, and colors, and it also makes this product
+          in custom sizes with a very nominal upcharge.
         </p>
       </div>
-
       <div className="my-8 flex flex-col lg:flex-row flex-wrap justify-left">
         <DisplaySmall
           imageSrc={inventory[6].images[0]}
@@ -192,15 +199,9 @@ const Home = () => {
           subtitle={inventory[9].categories[0]}
           link={`/product/${slugify(inventory[9].name)}`}
         />
-
-        <DisplaySmall
-          imageSrc={inventory[10].images[0]}
-          title={inventory[10].name}
-          subtitle={inventory[10].categories[0]}
-          link={`/product/${slugify(inventory[10].name)}`}
-        />
       </div>
 
+      
       {/* Foam Packing */}
       <div className="pt-10 pb-6 flex flex-col items-center">
         <h3 className="text-3xl mb-3">Foam Packing</h3>
@@ -219,6 +220,12 @@ const Home = () => {
         </p>
       </div>
       <div className="my-8 flex flex-col lg:flex-row flex-wrap  justify-left">
+      <DisplaySmall
+          imageSrc={inventory[10].images[0]}
+          title={inventory[10].name}
+          subtitle={inventory[10].categories[0]}
+          link={`/product/${slugify(inventory[10].name)}`}
+        />
         <DisplaySmall
           imageSrc={inventory[11].images[0]}
           title={inventory[11].name}
@@ -239,38 +246,30 @@ const Home = () => {
           subtitle={inventory[13].categories[0]}
           link={`/product/${slugify(inventory[13].name)}`}
         />
+      </div>
 
+      {/* PVC Shrink */}
+      <div className="pt-10 pb-6 flex flex-col items-center">
+        <h3 className="text-3xl mb-3">Stretch and Shrink Films</h3>
+        <p>
+          {" "}
+          Leading Manufacturer of PVC heat shrink sleeves and pouches, PVC
+          shrink film combo packaging. PVC shrink film, is durable and is used
+          in many applications, including packaging and house ware products. In
+          terms of packaging, PVC is seen in rigid applications including
+          blister and clamshell packaging, and flexible applications including
+          shrink wrap and bagging.{" "}
+        </p>
+      </div>
+
+      <div className="my-8 flex flex-col lg:flex-row flex-wrap justify-left">
         <DisplaySmall
           imageSrc={inventory[14].images[0]}
           title={inventory[14].name}
           subtitle={inventory[14].categories[0]}
           link={`/product/${slugify(inventory[14].name)}`}
         />
-      </div>
 
-      {/* Plastic Corrugated Box */}
-      <div className="pt-10 pb-6 flex flex-col items-center">
-        <h3 className="text-3xl mb-3">Plastic Corrugated Box</h3>
-        <p>
-          {" "}
-          Corrugated Plastic Package Box for Office and Home Use, Made of Strong
-          & Light weight Plastic materials, Very long Life. Ideal for Air Tight
-          and Reusable Packing. Humidity and Chemical resistance. Polypropylene
-          is Impact Resistance built to handle heavy weight. Unique Foldable
-          design to Store if not in Use, Stackable boxes easy to transport with
-          Handles to carry. This boxes are highly recommendable for Export
-          Packaging due to its light weight quality. Aarya Pack’s plastic
-          corrugated boxes are durable, reusable, waterproof, recyclable and
-          lightweight. They are best in quality, having best applicable price
-          and delivered across India. They can be good option for storing items
-          at your home. Aarya Pack’s corrugated plastic box series is by far the
-          most versatile box in the market, our corrugated plastic boxes in
-          hundreds of sizes, styles, and colors, and it also makes this product
-          in custom sizes with a very nominal upcharge.
-        </p>
-      </div>
-
-      <div className="my-8 flex flex-col lg:flex-row flex-wrap justify-left">
         <DisplaySmall
           imageSrc={inventory[15].images[0]}
           title={inventory[15].name}
@@ -299,7 +298,8 @@ const Home = () => {
           link={`/product/${slugify(inventory[18].name)}`}
         />
       </div>
-    </>
+
+          </>
   )
 }
 

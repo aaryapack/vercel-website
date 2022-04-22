@@ -55,73 +55,7 @@ let inventory = [
     ],
   },
 
-  // Stretch and Shrink Film: 6-10
-  {
-    categories: ["Stretch and Shrink Film"],
-    name: "PVC Shrink Film",
-    images: ["/products/shrink/pvc_shrink.jpg"],
-  },
-  {
-    categories: ["Stretch and Shrink Film"],
-    name: "Heat Shrink Film",
-    images: ["/products/shrink/heat_shrink.jpg"],
-  },
-  // { categories: ['Stretch and Shrink Film'], name: 'Polyolefin Shrink Film', image: '/products/couch.png'},// deep will confirm
-  {
-    categories: ["Stretch and Shrink Film"],
-    name: "Stretch Wrap",
-    images: ["/products/shrink/stretch_wrap.jpg"],
-  },
-  {
-    categories: ["Stretch and Shrink Film"],
-    name: "PVC Shrinkable Pouch",
-    images: ["/products/shrink/shrinkable_pouch.jpg"],
-  },
-  {
-    categories: ["Stretch and Shrink Film"],
-    name: "PVC Shrink Sleeve",
-    images: ["/products/shrink/shrink_sleeve.jpg"],
-  },
-
-  // Foam Packing:11-14
-  {
-    categories: ["Foam Packing"],
-    name: "EPE Foam Pouch",
-    images: [
-      "/products/foam/foam_pouch.jpg",
-      "/products/foam/foam_pouch_2.jpg",
-      "/products/foam/foam_pouch_3.jpg",
-      "/products/foam/foam_pouch_4.jpg",
-    ],
-  },
-  {
-    categories: ["Foam Packing"],
-    name: "EPE Foam Roll",
-    images: ["/products/foam/foam_roll.jpg"],
-  },
-  {
-    categories: ["Foam Packing"],
-    name: "EPE Foam Sheet",
-    images: ["/products/foam/foam_sheet.jpg"],
-  },
-  {
-    categories: ["Foam Packing"],
-    name: "EPE Foam Packings",
-    images: [
-      "/products/foam/foam_packing_1.jpg",
-      "/products/foam/foam_packing_2.jpg",
-      "/products/foam/foam_packing_3.jpg",
-      "/products/foam/foam_packing_4.jpg",
-      "/products/foam/foam_packing_5.jpg",
-      "/products/foam/foam_packing_6.jpg",
-      "/products/foam/foam_packing_7.jpg",
-      "/products/foam/foam_packing_8.jpg",
-      "/products/foam/foam_packing_9.jpg",
-      "/products/foam/foam_packing_10.jpg",
-    ],
-  },
-
-  // Plastic Corrugated Box:15-18
+  // Plastic Corrugated Box:6-9
   {
     categories: ["Plastic Corrugated Box"],
     name: "Plastic Corrugated Box",
@@ -160,6 +94,74 @@ let inventory = [
       "/products/corrugated/honeycomb_5.jpg",
     ],
   },
+
+  // Foam Packing:10-13
+  {
+    categories: ["Foam Packing"],
+    name: "EPE Foam Pouch",
+    images: [
+      "/products/foam/foam_pouch.jpg",
+      "/products/foam/foam_pouch_2.jpg",
+      "/products/foam/foam_pouch_3.jpg",
+      "/products/foam/foam_pouch_4.jpg",
+    ],
+  },
+  {
+    categories: ["Foam Packing"],
+    name: "EPE Foam Roll",
+    images: ["/products/foam/foam_roll.jpg"],
+  },
+  {
+    categories: ["Foam Packing"],
+    name: "EPE Foam Sheet",
+    images: ["/products/foam/foam_sheet.jpg"],
+  },
+  {
+    categories: ["Foam Packing"],
+    name: "EPE Foam Packings",
+    images: [
+      "/products/foam/foam_packing_1.jpg",
+      "/products/foam/foam_packing_2.jpg",
+      "/products/foam/foam_packing_3.jpg",
+      "/products/foam/foam_packing_4.jpg",
+      "/products/foam/foam_packing_5.jpg",
+      "/products/foam/foam_packing_6.jpg",
+      "/products/foam/foam_packing_7.jpg",
+      "/products/foam/foam_packing_8.jpg",
+      "/products/foam/foam_packing_9.jpg",
+      "/products/foam/foam_packing_10.jpg",
+    ],
+  },
+
+
+    // Stretch and Shrink Film: 14-18
+    {
+      categories: ["Stretch and Shrink Film"],
+      name: "PVC Shrink Film",
+      images: ["/products/shrink/pvc_shrink.jpg"],
+    },
+    {
+      categories: ["Stretch and Shrink Film"],
+      name: "Heat Shrink Film",
+      images: ["/products/shrink/heat_shrink.jpg"],
+    },
+    {
+      categories: ["Stretch and Shrink Film"],
+      name: "Stretch Wrap",
+      images: ["/products/shrink/stretch_wrap.jpg"],
+    },
+    {
+      categories: ["Stretch and Shrink Film"],
+      name: "PVC Shrinkable Pouch",
+      images: ["/products/shrink/shrinkable_pouch.jpg"],
+    },
+    {
+      categories: ["Stretch and Shrink Film"],
+      name: "PVC Shrink Sleeve",
+      images: ["/products/shrink/shrink_sleeve.jpg"],
+    },
+
+  
 ]
 
 inventory.map((i) => {
