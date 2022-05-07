@@ -15,10 +15,10 @@ export default function About() {
           class="font-medium leading-tight text-4xl mt-0 mb-2 text-blue-600"
           style={{ marginBottom: 30 }}
         >
-          Aarya Pack
+          Aarya Pack &trade;  
         </h2>
 
-        <p
+        {/* <p
           class="font-light"
           style={{
             textAlign: "justify",
@@ -26,7 +26,7 @@ export default function About() {
           }}
         >
           Aarya Pack is a Trademark registered under Aaditya Enterprises.{" "}
-        </p>
+        </p> */}
 
         <br></br>
 
