@@ -37,7 +37,7 @@ export default function About() {
             textJustify: "inter-word",
           }}
         >
-          With the assortment of qualitative products, Aaditya Enterprises was
+          With an assortment of qualitative products, Aaditya Enterprises was
           established in the year 2006 as the manufacturer of high-quality
           Packaging Products. Offered products range consists of Bubble Rolls,
           Bubble Film, and Bubble Pouch. Recognized for their long service life,
