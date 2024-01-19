@@ -82,7 +82,7 @@ export default function Contact() {
             Phone No.
           </h2>
           <h5 class="font-medium leading-tight text-xl">Bhavesh Parekh</h5>
-          <p className="font-light">8850843126</p>
+          <p className="font-light">9930330954</p>
         </div>
 
         {/* EMAIL */}
