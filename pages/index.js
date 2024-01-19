@@ -19,7 +19,7 @@ const Home = () => {
   const notify = () => {
     if (!toast.isActive(customId)) {
       if (isMobile) {
-        toast.info("Contact us at 8850843126 for more information!", {
+        toast.info("Contact us at 9930330954 for more information!", {
           toastId: customId,
           position: "bottom-center",
           autoClose: false,
@@ -30,7 +30,7 @@ const Home = () => {
           progress: undefined,
         })
       } else {
-        toast.info("Contact us at 8850843126 for more information!", {
+        toast.info("Contact us at 9930330954 for more information!", {
           toastId: customId,
           position: "top-right",
           autoClose: false,
